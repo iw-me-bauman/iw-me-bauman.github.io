@@ -25,9 +25,9 @@ navlinks:
 
 # Build settings
 paginate: 3
-baseurl: "/ezora-jekyll-theme" # the subpath of your site, e.g. /blog/
-#baseurl: ""
-url: "https://ezrasavard.github.io" # the base hostname & protocol for your site
+#baseurl: "/ezora-jekyll-theme" # the subpath of your site, e.g. /blog/
+baseurl: ""
+url: "https://iw-me-bauman.github.io" # the base hostname & protocol for your site
 highlights: pygments
 permalink: posts/:title/
 include: ["_pages"]
