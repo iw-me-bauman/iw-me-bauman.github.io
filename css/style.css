@@ -275,6 +275,15 @@
 				width: 100%;
 			}
 
+		.image.vertical {
+			display: block;
+		}
+
+			.image.vertical img {
+				display: block;
+				height: 100%;
+			}
+	
 /* Icon */
 
 	.icon {
