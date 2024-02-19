@@ -286,7 +286,8 @@
 		}
 
 			.image.portrait img {
-				height: 75%;
+				width: auto;
+				max-height: 75%;
 			}
 	
 /* Icon */
