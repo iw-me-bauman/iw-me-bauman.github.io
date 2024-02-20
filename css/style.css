@@ -280,14 +280,16 @@
 				width: 100%;
 			}
 
+		/* Create an image class for portrait images that are centered horizontally and have a vertical height that is 75% of the screen height */
 		.image.portrait {
-			display: flex;
-			justify-content: center;
+			display: block;
 		}
 
 			.image.portrait img {
+				display: block;
 				width: auto;
-				height: 75%;
+				height: 75vh;
+				margin: 0 auto;
 			}
 	
 /* Icon */
