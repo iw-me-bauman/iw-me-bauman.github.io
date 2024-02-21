@@ -292,7 +292,7 @@
 			.image.portrait img {
 				display: block;
 				width: auto;
-				height: 85vh;
+				height: 75vh;
 				margin: 0 auto;
 			}
 	
@@ -964,8 +964,10 @@
 			}
 
 				#footer .copyright li:first-child {
-					margin: 0;
-					padding: 0;
+					/* margin: 0; */
+					margin-left: 1em;
+					padding-left: 1em;
+					/* padding: 0; */
 					border: 0;
 				}
 
