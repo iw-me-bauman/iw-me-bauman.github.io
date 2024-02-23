@@ -27,11 +27,13 @@
 when the page width gets too narrow, e.g. in mobile devices. -->
 <div id="insert_mobile_image"></div>
 <!-- Hack to insert a nice picture of the two when the screen is too narrow to display the sides of the
-regular banner image. -->
+regular banner image. Width sniff from https://stackoverflow.com/questions/3437786/get-the-size-of-the-screen-current-web-page-and-browser-window -->
 <script>
 if ($(window).width() < 736)
     {
     document.getElementById('insert_mobile_image').innerHTML='<a class="image featured"><img src="images/banner_mobile.jpg" alt="Irwin W. and Mary E. (Bonser) Bauman." /></a>'; 
     }
-    </script>
+// Show the screen width as an alert to debug the above code.
+alert($(window).width());
+</script>
         
