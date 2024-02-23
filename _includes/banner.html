@@ -29,7 +29,7 @@ when the page width gets too narrow, e.g. in mobile devices. -->
 <!-- Hack to insert a nice picture of the two when the screen is too narrow to display the sides of the
 regular banner image. -->
 <script>
-if (screen.availWidth < 736)
+if (window.screen.width < 736)
     {
     document.getElementById('insert_mobile_image').innerHTML='<a class="image featured"><img src="images/banner_mobile.jpg" alt="Irwin W. and Mary E. (Bonser) Bauman." /></a>'; 
     }
